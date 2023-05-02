@@ -1,0 +1,25 @@
+header,
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    background-image: url(./img/homem-de-vista-traseira-na-ponte.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+button {
+    font-weight: bold;
+    cursor: pointer;
+    width: 80px;
+    background-color: #00E7F9;;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #4deaf5;
+    border: 1px solid gray;
+}
